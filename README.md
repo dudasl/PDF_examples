@@ -21,3 +21,8 @@ This file missing **/Length** as in previous example but contains **/DL** key
 which points to decompressed size. As uncompressed streams have same **/Length**
 and **/DL** (encrypted file exception) this may helps some PDF processor to
 determine correct length of stream.
+
+**[shorter_length.pdf](Stream_Length/Non-compressed/shorter_length.pdf)** - This
+file has **/Length** specified shorter that is in reality. Different PDF
+processors process this situation differently. Some shows part of content, some
+nothing depepnding how they try to correct the situation.
