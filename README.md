@@ -26,3 +26,7 @@ determine correct length of stream.
 file has **/Length** specified shorter that is in reality. Different PDF
 processors process this situation differently. Some shows part of content, some
 nothing depepnding how they try to correct the situation.
+
+**[shorter_length_dl.pdf](Stream_Length/Non-compressed/shorter_length_dl.pdf)** -
+This is the same file as previous example but contains **/DL** key with
+correct length.
