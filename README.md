@@ -15,3 +15,9 @@ file missing **/Length** key and is uncompressed. In general this PDF file is
 not valid as it's hard to determine the correct size of stream. Even this fact,
 PDF processors may render content in some level but rendered page content may be
 incomplete or not shown at all.
+
+**[missing_length_dl.pdf](Stream_Length/Non-compressed/missing_length_dl.pdf)** -
+This file missing **/Length** as in previous example but contains **/DL** key
+which points to decompressed size. As uncompressed streams have same **/Length**
+and **/DL** (encrypted file exception) this may helps some PDF processor to
+determine correct length of stream.
