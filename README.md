@@ -8,7 +8,10 @@ missing, incorrect length, etc.)
 
 **[correct_length.pdf](Stream_Length/Non-compressed/correct_length.pdf)** - This
 is just reference file with correct **/Length** and uncompressed **/Contents**
-stream under *1 0 obj*.
+stream under *2 0 obj*.
+
+**[correct_length_dl.pdf](Stream_Length/Non-compressed/correct_length_dl.pdf)** -
+This is the same file as in previous example but contains also correct **/DL**.
 
 **[missing_length.pdf](Stream_Length/Non-compressed/missing_length.pdf)** - This
 file missing **/Length** key and is uncompressed. In general this PDF file is
