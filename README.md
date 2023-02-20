@@ -33,3 +33,9 @@ nothing depepnding how they try to correct the situation.
 **[shorter_length_dl.pdf](Stream_Length/Non-compressed/shorter_length_dl.pdf)** -
 This is the same file as previous example but contains **/DL** key with
 correct length.
+
+**[zero_length.pdf](Stream_Length/Non-compressed/correct_length.pdf)** - This
+file has **/Length** set as zero. This may lead to not render content.
+
+**[zero_length_dl.pdf](Stream_Length/Non-compressed/correct_length_dl.pdf)** -
+This is the same file as in previous example but contains also correct **/DL**.
