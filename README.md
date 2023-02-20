@@ -39,3 +39,11 @@ file has **/Length** set as zero. This may lead to not render content.
 
 **[zero_length_dl.pdf](Stream_Length/Non-compressed/correct_length_dl.pdf)** -
 This is the same file as in previous example but contains also correct **/DL**.
+
+**[longer_length.pdf](Stream_Length/Non-compressed/longer_length.pdf)** - This
+file has **/Length** value exceed real length of stream. As whole page operators
+are read this should render page normally but PDF processors may read more bytes
+which may cause some error.
+
+**[longer_length_dl.pdf](Stream_Length/Non-compressed/longer_length_dl.pdf)** -
+This is the same file as in previous example but contains correct **/DL**.
