@@ -34,10 +34,10 @@ nothing depepnding how they try to correct the situation.
 This is the same file as previous example but contains **/DL** key with
 correct length.
 
-**[zero_length.pdf](Stream_Length/Non-compressed/correct_length.pdf)** - This
+**[zero_length.pdf](Stream_Length/Non-compressed/zero_length.pdf)** - This
 file has **/Length** set as zero. This may lead to not render content.
 
-**[zero_length_dl.pdf](Stream_Length/Non-compressed/correct_length_dl.pdf)** -
+**[zero_length_dl.pdf](Stream_Length/Non-compressed/zero_length_dl.pdf)** -
 This is the same file as in previous example but contains also correct **/DL**.
 
 **[longer_length.pdf](Stream_Length/Non-compressed/longer_length.pdf)** - This
